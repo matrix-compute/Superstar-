@@ -28,7 +28,7 @@ ephem==4.1.4
     # via lunarcalendar
 flask-testing==0.8.1
     # via -r requirements/testing.in
-fonttools==4.39.4
+fonttools==4.43.0
     # via matplotlib
 freezegun==1.2.2
     # via -r requirements/testing.in
@@ -70,7 +70,7 @@ googleapis-common-protos==1.59.0
     # via
     #   google-api-core
     #   grpcio-status
-grpcio==1.54.0
+grpcio==1.54.3
     # via
     #   google-api-core
     #   google-cloud-bigquery
@@ -158,3 +158,7 @@ websocket-client==1.5.1
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
