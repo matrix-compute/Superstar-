@@ -144,7 +144,7 @@ sqlalchemy-bigquery==1.6.1
     # via apache-superset
 statsd==4.0.1
     # via -r requirements/testing.in
-tqdm==4.65.0
+tqdm==4.66.3
     # via
     #   cmdstanpy
     #   prophet
