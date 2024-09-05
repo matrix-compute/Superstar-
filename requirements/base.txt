@@ -78,7 +78,7 @@ cron-descriptor==1.2.24
     # via apache-superset
 croniter==1.0.15
     # via apache-superset
-cryptography==41.0.2
+cryptography==43.0.1
     # via
     #   apache-superset
     #   paramiko
@@ -106,7 +106,7 @@ flask==2.2.5
     #   flask-session
     #   flask-sqlalchemy
     #   flask-wtf
-flask-appbuilder==4.3.11
+flask-appbuilder==4.5.1
     # via apache-superset
 flask-babel==1.0.0
     # via flask-appbuilder
