@@ -36,7 +36,7 @@ et-xmlfile==1.1.0
     # via openpyxl
 executing==1.2.0
     # via stack-data
-flask-cors==3.0.10
+flask-cors==6.0.0
     # via apache-superset
 future==0.18.3
     # via pyhive
@@ -138,3 +138,4 @@ xlrd==2.0.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
