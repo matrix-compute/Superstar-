@@ -106,7 +106,7 @@ flask==2.2.5
     #   flask-session
     #   flask-sqlalchemy
     #   flask-wtf
-flask-appbuilder==4.3.11
+flask-appbuilder==4.6.2
     # via apache-superset
 flask-babel==1.0.0
     # via flask-appbuilder
@@ -298,7 +298,7 @@ pyyaml==6.0.1
     #   apispec
 redis==4.5.4
     # via apache-superset
-requests==2.31.0
+requests==2.32.4
     # via
     #   requests-cache
     #   shillelagh
@@ -355,7 +355,7 @@ tzdata==2023.3
     # via pandas
 url-normalize==1.4.3
     # via requests-cache
-urllib3==1.26.6
+urllib3==2.5.0
     # via
     #   requests
     #   requests-cache
