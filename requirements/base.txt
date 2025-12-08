@@ -338,7 +338,7 @@ sqlalchemy-utils==0.38.3
     # via
     #   apache-superset
     #   flask-appbuilder
-sqlparse==0.4.4
+sqlparse==0.5.4
     # via apache-superset
 sshtunnel==0.4.0
     # via apache-superset
@@ -355,7 +355,7 @@ tzdata==2023.3
     # via pandas
 url-normalize==1.4.3
     # via requests-cache
-urllib3==1.26.6
+urllib3==2.6.0
     # via
     #   requests
     #   requests-cache
